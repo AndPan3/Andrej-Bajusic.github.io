@@ -7,17 +7,23 @@
 <body>
     <div class="title-bar">
         <h1 >Andrej Bajusic</h1>
-        <p ><a href="Diplome.html">Diplome und Zeugnisse</a> </p>
+        <p ><a href="Dimplome.html" class="white-link">Diplome und Zeugnisse</a> </p>
         </div>
     <hr> 
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-    <h2>Contact</h2>
-    <p class="center">Andrej Bajusic</p>
+    <h4>Steckbrief</h4>
+    <img src="fotoandrej.jpg" alt="Bild von Andrej Bajusic">
+    <p>Mein name ist Andrej Bajusic und ich besuche die Bezirksschule in Zofingen. Das ist die Anspruchstvollste Oberstufe im Kanton Aargau. Ich habe ein Interresse an Informatik und habe diese Website selbst Kodiert. Ich besuche ausserdem den Kurs von <a href="https://www.ict-scouts.ch/de/home/index.php">ICT Scouts</a> und habe den Kurs <a href="https://www.ti8m.com/de/about-us/jugendfoerderung-hack-an-app">Hack an App</a> absolviert.</p>
+    <h4>Informationen</h4>
+    <p>Ich bin 12 Jahre alt und wohne im Kanton Aargau. Wie ich schon gesagt habe, besuche ich die Bezirksschule in Zofingen. </p>
+   <divclass="Contact-Socials">
+     <h2>Contact</h2>
+    <p> Andrej Bajusic</p>
     <a href="mailto:Andrej.Bajusic2012@gmail.com">Andrej.Bajusic2012@gmail.com</a> <br>
     <a href="tel:+410784223738">078 422 37 38</a>
     <h2>Socials</h2>
     <a href="https://www.Instagram.com/And_pan3">Instagram</a><br>
     <a href="https://www.Tiktok.com/Andi_pandi35">TikTok</a>
+    </div>
 </body>
 <footer>
  <a href="Cr.html"> <p class="license">License</p></a>
@@ -26,12 +32,24 @@
 
 <style>
 html {
-    text-align: center;
+    text-align: left;
     font-family: Verdana;
-    background-color: #ecf0fc;
+    background-color: #bfebff;
+    
+}
+.white-link {
+  color: white;
+  text-decoration: none;
 }
 
+.white-link:hover {
+  text-decoration: underline;
+}
 
+img {
+ max-width: 25%;
+float: right;
+}
 h1 {
     font-weight: bolder;
     color: #424656;
@@ -50,23 +68,26 @@ h2 {
     text-decoration-line: underline;
 }
 
-.center {
-    text-align: center;
-    font-weight: bold;
-}
-
 .license {
     font-size: x-small;
     text-align: center;
 }
 .title-bar {
-    background-color:  #2a2c38;
+    background-color:  #44819e;
     padding: 10px;
 }
     .title-bar h1{
-  color: #cfd1e0;
+  color: #ffffff;
 }
     .title-bar p {
   color: #cfd1e0; 
+}
+h4{
+    text-align: left;
+}
+.contact-socials{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 </style>
