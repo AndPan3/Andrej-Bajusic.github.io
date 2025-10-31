@@ -1,0 +1,57 @@
+html {
+    text-align: left;
+    font-family: Verdana;
+    background-color: #bfebff;
+    
+}
+
+
+.title-bar:hover {
+  text-decoration: underline;
+}
+
+img {
+ max-width: 25%;
+float: right;
+}
+h1 {
+    font-weight: bolder;
+    color: #424656;
+    text-align: left;
+}
+
+p {
+    color: #424656;
+    text-align: left;
+}
+
+h2 {
+    color: #424656;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.license {
+    font-size: x-small;
+    text-align: center;
+}
+.title-bar {
+    background-color:  #44819e;
+    padding: 10px;
+    color: white;
+  text-decoration: none;
+}
+    .title-bar h1{
+  color: #ffffff;
+}
+    .title-bar p {
+  color: #cfd1e0; 
+}
+h4{
+    text-align: left;
+}
+.contact-socials{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
