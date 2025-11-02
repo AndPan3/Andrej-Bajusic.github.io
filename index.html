@@ -10,18 +10,15 @@
     <meta name="description" content="Portfolio von Andrej Bajusic – Jugendlicher aus Aargau mit Leidenschaft für Programmieren, Webentwicklung und Informatik-Projekte.">
 </head>
 <body>
-    <div class="title-bar">
-  <h1>
-    <a href="index.html" class="white-link">Andrej Bajusic</a>
-    </h1>
-<p class="nav-links">
-  <a href="sites/Diplome.html" class="white-link">Diplome und Zeugnisse</a>
-  <a href="sites/Impressum.html" class="white-link">Impressum</a>
-  <a href="sites/Projekte.html" class="white-link">Projekte</a>
-</p>
-
-</div>
-
+ <div id="menu"></div>
+<script>
+  fetch("menu.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("menu").innerHTML = data;
+    })
+    .catch(error => console.error("Menü konnte nicht geladen werden:", error));
+</script>
     <hr> 
     <h4>Steckbrief</h4>
     <img src="mediastyles/fotoandrej.jpg" alt="Bild von Andrej Bajusic">
