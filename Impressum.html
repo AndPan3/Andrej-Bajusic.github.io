@@ -8,16 +8,15 @@
     <meta name="description" content="Impressum von Andrej Bajusic – Jugendlicher aus Aargau mit Leidenschaft für Programmieren, Webentwicklung und Informatik-Projekte.">
 </head>
 <body>
-    <div class="title-bar">
-  <h1>
-    <a href="index.html" class="white-link">Andrej Bajusic</a>
-    </h1>
-<p class="nav-links">
-  <a href="Diplome.html" class="white-link">Diplome und Zeugnisse</a>
-  <a href="Impressum.html" class="white-link">Impressum</a>
-  <a href="Projekte.html" class="white-link">Projekte</a>
-</p>
-
+ <div id="menu"></div>
+<script>
+  fetch("menu.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("menu").innerHTML = data;
+    })
+    .catch(error => console.error("Menü konnte nicht geladen werden:", error));
+</script>
 </div>
 <h1>Impressum</h1>
 <h2>Andrej Bajusic</h2>
