@@ -5,7 +5,7 @@
 
   <!-- Home -->
   <url>
-    <loc>https://andrejbajusic.ch/</loc>
+    <loc>https://andrejbajusic.ch/Index.html</loc>
     <lastmod>2025-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -13,26 +13,34 @@
 
   <!-- Projects -->
   <url>
-    <loc>https://andrejbajusic.ch/projects</loc>
+    <loc>https://andrejbajusic.ch/sites/Projects.html</loc>
     <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- About -->
+  <!-- Diplome -->
   <url>
-    <loc>https://andrejbajusic.ch/about</loc>
+    <loc>https://andrejbajusic.ch/sites/diplome</loc>
     <lastmod>2025-11-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
 
-  <!-- Contact -->
+  <!-- Impressum -->
   <url>
-    <loc>https://andrejbajusic.ch/contact</loc>
+    <loc>https://andrejbajusic.ch/sites/Impressum.html</loc>
     <lastmod>2025-11-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Copyright & Licenses -->
+  <url>
+    <loc>https://andrejbajusic.ch/sites/cr.html</loc>
+    <lastmod>2025-11-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
 </urlset>
