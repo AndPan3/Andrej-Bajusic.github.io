@@ -46,6 +46,7 @@ p {
 img {
   max-width: 25%;
   float: right;
+  border: 4px black;
 }
 
 .license {
