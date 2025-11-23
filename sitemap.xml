@@ -19,14 +19,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Diplome -->
-  <url>
-    <loc>https://andrejbajusic.ch/sites/diplome</loc>
-    <lastmod>2025-11-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- Impressum -->
   <url>
     <loc>https://andrejbajusic.ch/sites/Impressum.html</loc>
