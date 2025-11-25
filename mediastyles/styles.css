@@ -66,6 +66,7 @@ img {
 
 .white-link:hover {
   text-decoration: underline;
+    -webkit-text-stroke: 3px black;
 }
 
 .nav-links {
