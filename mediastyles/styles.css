@@ -62,11 +62,11 @@ img {
 .white-link {
   color: white;
   text-decoration: none;
+  -webkit-text-stroke: 1px black;
 }
 
 .white-link:hover {
   text-decoration: underline;
-    -webkit-text-stroke: 3px black;
 }
 
 .nav-links {
