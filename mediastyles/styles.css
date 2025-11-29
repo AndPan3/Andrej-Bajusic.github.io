@@ -14,13 +14,8 @@ html {
 }
 
 
-.title-bar h1 {
-  color: #424242;
-}
-
-.title-bar p {
-  color: #4a4a4a;
-}
+.menutext{
+  color:424242;}
 
 h1 {
   font-weight: bolder;
