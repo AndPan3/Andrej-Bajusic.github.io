@@ -1,12 +1,12 @@
 html {
   text-align: left;
   font-family: Verdana;
-  background-color: #bfebff;
+  background-color: #272727;
   margin: 0px;
 }
 
 .title-bar {
-  background-color: #44819e;
+  background-color: #d3d3d3;
   padding: 10px;
   color: white;
   text-decoration: none;
@@ -15,21 +15,21 @@ html {
 
 
 .title-bar h1 {
-  color: #ffffff;
+  color: #424242;
 }
 
 .title-bar p {
-  color: #cfd1e0;
+  color: #4a4a4a;
 }
 
 h1 {
   font-weight: bolder;
-  color: #424656;
+  color: #fdfeff;
   text-align: left;
 }
 
 h2 {
-  color: #424656;
+  color: #fdfeff;
   font-weight: bold;
   text-decoration-line: underline;
 }
@@ -39,7 +39,7 @@ h4 {
 }
 
 p {
-  color: #424656;
+  color: #fdfeff;
   text-align: left;
 }
 
@@ -62,7 +62,6 @@ img {
 .white-link {
   color: white;
   text-decoration: none;
-  -webkit-text-stroke: 1px black;
 }
 
 .white-link:hover {
