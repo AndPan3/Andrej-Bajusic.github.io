@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <div id="menu"></div>
+<script>
+  fetch("menu.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("menu").innerHTML = data;
+    })
+    .catch(error => console.error("Menü konnte nicht geladen werden:", error));
+</script>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF8">
+        <title></title>
+    </head>
+    <body>
+    <div class="title-bar">
+ <div id="menu"></div>
+  <div id="menu"></div>
+  <script>
+    fetch("./menu.html")
+      .then(response => response.text())
+      .then(data => { document.getElementById("menu").innerHTML = data; })
+      .catch(error => {
+        console.error("Menü konnte nicht geladen werden:", error);
+        document.getElementById("menu").innerHTML = "<p>Menu could not be loaded.</p>";
+      });
+  </script>
+    <hr> 
+  <h2>FOTOGRAFIE</h2>
+      <p>Ich mache Fotografie als hobby und habe ein unsplash Account unter <a href=https://unsplash.com/de/@and_pan3>And_pan3</a> und poste Fotos auf <a href=https://www.instagram.com/and_pan3/>Instagram</a> und <a href=https://www.tiktok.com/@andpan_photo>TikTok.</p>
+      <p>Hier sind meine lieblingsfotos die ich mit meinem <a href=https://de.wikipedia.org/wiki/Nikon_D3300>Nikon D3300</a>gemacht habe:</p>
+      <img src=https://images.unsplash.com/photo-1762282680375-991ccf1af10c?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
+      <img src=https://images.unsplash.com/photo-1762282680309-548a36066eb2?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
+      <img src=https://images.unsplash.com/photo-1762282680675-2c83eec2abaa?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
+      <img src=https://images.unsplash.com/photo-1762282649344-f8d5ffdd6ebc?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
+      <img src=https://images.unsplash.com/photo-1763148314857-a0c894bd9408?q=80&w=2108&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
+      <img src=https://images.unsplash.com/photo-1763148308448-68810b94515f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
+      <img src=https://images.unsplash.com/photo-1763832328805-fe76d89e2572?q=80&w=1238&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
+      <img src=https://images.unsplash.com/photo-1763832328828-86684ffc66b4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D>
+    </body>
+</html>
