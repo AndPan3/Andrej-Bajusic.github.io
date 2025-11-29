@@ -6,7 +6,7 @@
   <!-- Home -->
   <url>
     <loc>https://andrejbajusic.ch/Index.html</loc>
-    <lastmod>2025-11-02</lastmod>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -19,12 +19,20 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Photography -->
+    <url>
+    <loc>https://andrejbajusic.ch/sites/Foto.html</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Impressum -->
   <url>
     <loc>https://andrejbajusic.ch/sites/Impressum.html</loc>
     <lastmod>2025-11-02</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.3</priority>
   </url>
 
   <!-- Copyright & Licenses -->
@@ -32,7 +40,7 @@
     <loc>https://andrejbajusic.ch/sites/cr.html</loc>
     <lastmod>2025-11-02</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <priority>0.2</priority>
   </url>
 
 </urlset>
