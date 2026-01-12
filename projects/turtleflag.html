@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mediastyles/styles.css">
+        <meta charset="UTF8">
+        <title></title>
+    </head>
+    <body>
+    <div class="title-bar">
+ <div id="menu"></div>
+  <div id="menu"></div>
+  <script>
+    fetch("./menu.html")
+      .then(response => response.text())
+      .then(data => { document.getElementById("menu").innerHTML = data; })
+      .catch(error => {
+        console.error("Menü konnte nicht geladen werden:", error);
+        document.getElementById("menu").innerHTML = "<p>Menu could not be loaded.</p>";
+      });
+  </script>
+    </div>
+    <hr> 
+  <h1>Turtle Flags</h1>
+    <h2>Turtle Flags ist mein erstes Python Projekt wo ich Turtle benutze, um die Flaggen der Welt zu zeichnen.</h2>
+      <p>Ich möchte damit meine Python Fähigkeiten erweitern und somut auch andere helfen, Turtle zu lernen weil mein Projekt Open Source und frei zugänglich ist. <a href=https://github.com/AndPan3/TurtleFlags>Hier ist mein Projekt auf GitHub.</a></p>
+      <h2>DEMOS</h2>
+      <a href=projects/Python/Switzerland.py>Die Schweiz, </a><a href=projects/Python/Greece.py>Griechenland</a>
+    </body>
+</html>
