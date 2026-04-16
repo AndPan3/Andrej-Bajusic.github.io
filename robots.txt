@@ -1,5 +1,0 @@
-# Robots.txt for https://andrejbajusic.ch/
-User-agent: *
-Allow: /
-Sitemap: https://andrejbajusic.ch/sitemap.xml
-
