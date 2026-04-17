@@ -1,16 +1,33 @@
 body{
     background-color:#21202e;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:#d2d1e3;
     align-items:center;
     text-align: center;
+    font-family: "Red Hat Mono", monospace;
 }
 h1{
     font-size:8vw;
-    letter-spacing:0.3vw
+    letter-spacing:0.05vw;
+    font-family: "Orbitron", sans-serif;
+    transition:letter-spacing 0.15s
+}
+h1:hover{
+    letter-spacing:0.7vw;
+    transition:letter-spacing 0.15s
+}
+h2{
+    font-family: "Orbitron", sans-serif;
 }
 .welcome{
-    font-size:5rem;
+    font-size:3vw;
+    margin-top:-4%;
+    font-family: "Orbitron", sans-serif;
+    letter-spacing:normal;
+    transition:letter-spacing 0.15s
+}
+.welcome:hover{
+    letter-spacing:0.5vw;
+    transition:letter-spacing 0.15s
 }
 .welcomediv{
     margin-top:2.5%;
@@ -20,23 +37,31 @@ h1{
     text-decoration:underline;
     color:#d2d1e3;
 }
+.Textlink:hover{
+    font-weight:bold;
+}
 p{
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.03em;
     line-height:1.5rem;
 }
 .Kompetenzen{
     border:7px solid #101012;
     width:30%;
     border-left:none;
+    justify-content:center;
+    padding:20px
 }
 .Projekte{
     border:7px solid #101012;
     width:40%;
     border-left:none;
+    justify-content:center;
 }
 .Introduction{
     border:7px solid #101012;
     width: 30%;
+    justify-content:center;
+    padding:20px;
 }
 .contanier {
     display: flex;
@@ -48,10 +73,15 @@ iframe{
     margin-top:1%;
     border:none;
     width:100%;
-    height:95%; 
+    height:95%;
+    opacity:0.6;
+    transition:opacity 0.1s
 }
-
-img{
+iframe:hover{
+    opacity:1;
+    transition:opacity 0.1s
+}
+.Fotografie img{
     aspect-ratio: 1 / 1;
     display:flex;
     display: inline-block;
@@ -65,7 +95,7 @@ img{
     margin-right:2.5;
     position: relative;
 }
-img:hover{
+.Fotografie img:hover{
     position: relative;
     transform:scale(1.2);
     transition:transform 0.1s;
@@ -79,4 +109,63 @@ img:hover{
     margin-left:25%;
     margin-right:25%;
 
+}
+.Fotografie h2{
+    font-size:xx-large;
+    transform:scale(1.1)
+}
+.Logo {
+    margin-top:25%;
+    margin-right:10%;
+    width:10%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    filter:grayscale(1) brightness(1.5);
+    transform:scale(1);
+    transition:filter 0.1s;
+    transition:transform 0.1s
+}
+.Logo:hover{
+    filter:none;
+    transform:scale(3);
+    transition:filter 0.1s;
+    transition:transform 0.1s
+}
+.foot{
+    margin-top:5%;
+    font-family: "Orbitron", sans-serif;
+    font-size:smaller;
+}
+.socials{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:15px;
+    margin-top:none;
+}
+.socials a {
+    color: #474661;
+    text-decoration:underline;
+    transition: color 0.2s;
+    letter-spacing:normal;
+    transition: letter-spacing 0.2s
+}
+
+.nojs {
+    display: contents;
+    color: #474661;
+    margin-bottom:none;
+    transition:color 0.2s
+}
+.nojs:hover {
+    display: contents;
+    color:#21202e;
+    transition:color 0.2s
+}
+.socials a:hover{
+    color:#d2d1e3;
+    font-weight:bolder;
+    transition: color 0.2s;
+    letter-spacing:0.5em;
+    transition: letter-spacing 0.2s
 }
