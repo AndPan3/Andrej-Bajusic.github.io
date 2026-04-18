@@ -169,3 +169,19 @@ iframe:hover{
     letter-spacing:0.5em;
     transition: letter-spacing 0.2s
 }
+.intro{
+    font-size:large;
+    color:#d2d1e3;
+    letter-spacing:normal;
+    transition: letter-spacing 0.2s;
+    font-family: "Orbitron", sans-serif;
+}
+.intro:hover{
+    font-size:large;
+    color:#d2d1e3;
+    letter-spacing:0.1em;
+    transition: letter-spacing 0.2s
+}
+.contactform{
+    display:inline-block;
+}
