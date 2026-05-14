@@ -45,20 +45,20 @@ p{
     line-height:1.5rem;
 }
 .Kompetenzen{
-    border:7px solid #101012;
+    border:7px solid #1e1e26;
     width:30%;
     border-left:none;
     justify-content:center;
     padding:20px
 }
 .Projekte{
-    border:7px solid #101012;
+    border:7px solid #1e1e26;
     width:40%;
     border-left:none;
     justify-content:center;
 }
 .Introduction{
-    border:7px solid #101012;
+    border:7px solid #1e1e26;
     width: 30%;
     justify-content:center;
     padding:20px;
@@ -102,7 +102,7 @@ iframe:hover{
     z-index: 7;
 }
 .Fotografie{
-    border:7px solid #101012;
+    border:7px solid #1e1e26;
     border-top:none;
 }
 .Fotografie p{
@@ -186,6 +186,55 @@ iframe:hover{
     display:inline-block;
 }
 @media (max-width: 991px) {
-  body {
+  .contanier {
+    display:block;
+    padding:0
+}
+.Introduction, .Projekte, .Kompetenzen{
+    border-bottom:7px solid #1e1e26;
+    border-top:7px solid #1e1e26;
+    border-left:0;
+    border-right:0;
+    width: 100%;
+    margin-bottom:20px;
+    margin-right:0;
+    margin-left:0;
+    padding:0;
+}
+iframe{
+    height:100vw;
+    width:auto
+}
+.socials{
+    display:flex;
     flex-direction:column;
-  }}
+    margin-top:9px;
+    margin-bottom:9px;
+    line-height:0;
+}
+  }
+@media (prefers-color-scheme: light) {
+    body{
+    background-color:#d2d1e3;
+    color:#21202e
+}
+.TextLink{
+    text-decoration:underline;
+    color:#21202e;
+}
+.Kompetenzen, .Introduction, .Projekte{
+    border:7px solid #c7c5de;
+}
+.Fotografie{
+    border:7px solid, #c7c5de;
+    border-top:none;
+}
+.socials a, .nojs {
+    color:#21202e;
+}
+.nojs:hover {
+    color:#d2d1e3;
+}
+.socials a:hover{
+    color:#a70909;}
+}
