@@ -185,3 +185,7 @@ iframe:hover{
 .contactform{
     display:inline-block;
 }
+@media (max-width: 991px) {
+  body {
+    flex-direction:column;
+  }}
