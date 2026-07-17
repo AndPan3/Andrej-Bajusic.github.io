@@ -206,7 +206,10 @@ display:block;
 margin-top:10%;
 }
 }
-@media (max-width:426px){
+@media (max-width:480px){
+    .container{
+        flex-direction:column;
+    }
     .Introduction {
         width:99%;
         padding: none;
@@ -241,5 +244,41 @@ margin-top:10%;
         flex-direction: column;
         gap:none;
         margin:none;
+    }
+}
+@media (max-width:769px){
+    .container{
+        flex-direction:column;
+    }
+        .Introduction {
+        width:99%;
+        padding: none;
+        margin:none;
+        border-right:none;
+        border-left:none;
+        overflow: hidden;
+    }
+        .Projekte {
+        width:99%;
+        padding: none;
+        margin:none;
+        border-right:none;
+        overflow: hidden;
+        border-left:none;
+    }
+        .Projekte img{
+            overflow:visible;
+        }
+        .Logo:hover/* i know its normally a touchscreen but hover works when you click on it*/{
+        transform:scale(1.5);
+        transition: filter 0.1s, transform 0.1s;
+        }
+        .Kompetenzen {
+        width:99%;
+        overflow: hidden;
+        padding: none;
+        margin:none;
+        border-right:none;
+        border-left:none;
     }
 }
