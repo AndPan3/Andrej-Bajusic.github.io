@@ -3,7 +3,7 @@ body{
     color:#d2d1e3;
     align-items:center;
     text-align: center;
-    font-family: "Red Hat Mono", monospace;
+    font-family: "Ubuntu Mono", monospace;
 }
 h1{
     font-size:8vw;
@@ -19,7 +19,7 @@ h2{
     font-family: "Orbitron", sans-serif;
 }
 .dm{
-    content-visibility: hidden;
+    display:none;
 }
 .welcome{
     font-size:3vw;
@@ -32,15 +32,15 @@ h2{
     letter-spacing:0.5vw;
     transition:letter-spacing 0.15s
 }
-.welcomediv{
-    margin-top:2.5%;
-    margin-bottom:5%
+    .welcomediv{
+    margin-top: 30vh;
+    margin-bottom: 70vh;
 }
 .TextLink{
     text-decoration:underline;
     color:#d2d1e3;
 }
-.Textlink:hover{
+.TextLink:hover{
     font-weight:bold;
 }
 p{
@@ -56,9 +56,10 @@ p{
 }
 .Projekte{
     border:7px solid #1e1e26;
-    width:40%;
+    width:30%;
     border-left:0px;
     justify-content:center;
+    padding:20px
 }
 .Introduction{
     border:7px solid #1e1e26;
@@ -66,7 +67,11 @@ p{
     justify-content:center;
     padding:20px;
 }
-.contanier {
+.Introduction p, .Projekte p, .Kompetenzen p{
+    margin-left:25%;
+    margin-right:25%;
+}
+.container {
     display: flex;
     width: 100%;
     align-items: stretch;
@@ -74,7 +79,6 @@ p{
 }
 .Fotografie img{
     aspect-ratio: 1 / 1;
-    display:flex;
     display: inline-block;
     width:30%;
     transform:scale(1);
@@ -82,8 +86,6 @@ p{
     object-fit: cover;
     z-index: 1;
     margin-top:2%;
-    margin-left:2.5;
-    margin-right:2.5;
     position: relative;
 }
 .Fotografie img:hover{
@@ -94,7 +96,8 @@ p{
 }
 .Fotografie{
     border:7px solid #1e1e26;
-    border-top:0px;
+    margin-top:30vh;
+    width:99%
 }
 .Fotografie p{
     margin-left:25%;
@@ -106,21 +109,19 @@ p{
     transform:scale(1.1)
 }
 .Logo {
-    margin-top:25%;
+    margin-top:5%;
     margin-right:10%;
     width:10%;
     aspect-ratio:1/1;
     object-fit:cover;
     filter:grayscale(1) brightness(1.5);
     transform:scale(1);
-    transition:filter 0.1s;
-    transition:transform 0.1s
+    transition: filter 0.1s, transform 0.1s;
 }
 .Logo:hover{
-    filter:0px;
+    filter:none;
     transform:scale(3);
-    transition:filter 0.1s;
-    transition:transform 0.1s
+    transition: filter 0.1s, transform 0.1s;
 }
 .foot{
     margin-top:5%;
@@ -137,9 +138,8 @@ p{
 .socials a {
     color: #474661;
     text-decoration:underline;
-    transition: color 0.2s;
     letter-spacing:normal;
-    transition: letter-spacing 0.2s
+    transition: color 0.2s, letter-spacing 0.2s;
 }
 
 .nojs {
@@ -189,7 +189,7 @@ p{
     border:7px solid #c7c5de;
 }
 .Fotografie{
-    border:7px solid, #c7c5de;
+    border:7px solid #c7c5de;
     border-top:0px;
 }
 .socials a, .nojs {
@@ -202,40 +202,44 @@ p{
     color:#a70909;}
 
 .dm{
-content-visibility:visible;
+display:block;
 margin-top:10%;
 }
 }
-@media (max-width: 575.98px){
-    .contanier{
-        display:flex;
-        flex-direction:column;
-        overflow:visible;
-        margin: 0px;
-        padding: 0px;
+@media (max-width:426px){
+    .Introduction {
+        width:99%;
+        padding: none;
+        margin:none;
+        border-right:none;
+        border-left:none;
+        overflow: hidden;
     }
-    .Kompetenzen, .Projekte, .Introduction{
-        width:100%;
-        border-left: 0px;
-        border-right: 0px;
-        gap: 0px;
-        padding: 0px;
-        margin: 0px;
+        .Projekte {
+        width:99%;
+        padding: none;
+        margin:none;
+        border-right:none;
+        overflow: hidden;
+        border-left:none;
+    }
+        .Projekte img{
+            overflow:visible;
         }
-    .Introduction{
-        border-top: 0px;
+        .Kompetenzen {
+        width:99%;
+        overflow: hidden;
+        padding: none;
+        margin:none;
+        border-right:none;
+        border-left:none;
     }
-    .welcomediv{
-        margin-top: 15vh;
-        margin-bottom: 15vh;
+    .foot{
+        flex-direction:column;
     }
     .socials{
         flex-direction: column;
-        gap: 0%;
-        margin: 0%;
-    }
-    .Fotografie{
-        border-left:0px;
-        border-right:0px;
+        gap:none;
+        margin:none;
     }
 }
