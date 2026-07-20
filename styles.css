@@ -301,7 +301,22 @@ margin-top:10%;
         transition: filter 0.1s, transform 0.1s;
         }
 }
-@media (min-width: 1025px){
+@media (max-width: 1499px){
+    body{
+        font-size: large;
+    }
+    .Fotografie img{
+        width: 20%;
+    }
+        .Logo:hover/* i know its normally a touchscreen but hover works when you click on it*/{
+        transform:scale(1.5);
+        transition: filter
+        }}
+    .Kompetenzen p, .Projekte p, .Introduction p{
+        margin-left:10%;
+        margin-right:10%;
+    }
+@media (min-width: 1500px){
     body{
         font-size: x-large;
     }
