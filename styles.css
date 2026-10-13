@@ -4,6 +4,7 @@ body{
     align-items:center;
     text-align: center;
     font-family: "Ubuntu Mono", monospace;
+    overflow-x:hidden;
 }
 h1{
     font-size:8vw;
